@@ -1,0 +1,42 @@
+.red {
+  background-color: #d36c6c;
+}
+.green {
+  background-color: #68c068;
+}
+.orange {
+  background-color: rgb(212, 167, 84);
+}
+
+.ftop, .fbot{
+  background-color: #d36c6c;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ftop {
+  background-image: url("/image/Ftop.png");
+}
+
+.fbot {
+  background-image: url("/image/Fbot.png");
+}
+
+.tabla{
+  max-width: 1325px;
+  th, td{
+    width: 100px;
+    aspect-ratio: 1;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+  th{
+    color: aliceblue;
+  }
+  img{
+    width: 100%;
+    aspect-ratio: 1;
+  }
+}
