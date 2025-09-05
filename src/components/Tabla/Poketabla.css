@@ -1,0 +1,70 @@
+.tabla-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tabla th,
+.tabla td {
+  padding: 0.5rem;
+  border: 1px solid #333;
+  min-width: 80px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.tabla th {
+  background-color: #444;
+  color: #fff;
+}
+
+.tabla td {
+  position: relative;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+  text-shadow: 0 0 1px #fff;
+}
+
+.tabla img {
+  width: 60px;
+  height: auto;
+}
+
+.green {
+  background-color: #68c068;
+  color: white;
+}
+
+.red {
+  background-color: #d36c6c;
+  color: white;
+}
+
+.orange {
+  background-color: rgb(212, 167, 84);
+  color: white;
+}
+
+.ftop {
+  background-color: #d36c6c;
+  background-image: url("/assets/images/Ftop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.fbot {
+  background-color: #d36c6c;
+  background-image: url("/assets/images/Fbot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

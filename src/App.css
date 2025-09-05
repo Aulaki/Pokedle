@@ -1,4 +1,88 @@
-* {box-sizing: border-box;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffcb05, #3b4cca);
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.game-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-section {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.green {
+  background-color: #68c068;
+  color: white;
+}
+
+.red {
+  background-color: #d36c6c;
+  color: white;
+}
+
+.orange {
+  background-color: rgb(212, 167, 84);
+  color: white;
+}
+
+.ftop,
+.fbot {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ftop {
+  background-image: url("/assets/images/Ftop.png");
+}
+
+.fbot {
+  background-image: url("/assets/images/Fbot.png");
+}
+
+.loading {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .tabla th,
+  .tabla td {
+    font-size: 0.8rem;
+    min-width: 60px;
+  }
+
+  .targeta-img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .mode-selector {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .overlay-img {
+    width: 40px;
+  }
 }

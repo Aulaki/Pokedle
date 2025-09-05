@@ -1,14 +1,13 @@
-import './App.css'
-import "bootstrap/dist/css/bootstrap.min.css";
-import { PokedleV2 } from './Pokedle/PokedleV2';
+import { GameProvider } from "./context/GameContext";
+import GameView from "./views/GameView";
+import "./App.css";
 
 function App() {
-
   return (
-    <>
-    <PokedleV2/>
-    </>
-  )
+    <GameProvider>
+      <GameView />
+    </GameProvider>
+  );
 }
 
-export default App
+export default App;

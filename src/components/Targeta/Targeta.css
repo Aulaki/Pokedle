@@ -1,0 +1,47 @@
+.targeta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.targeta-content {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.targeta-img {
+  width: 100%;
+  height: auto;
+}
+
+.targeta-text {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.targeta-button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #68c068;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.targeta-button:hover {
+  background-color: #4ea54e;
+}
+
+.targeta-daily-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
